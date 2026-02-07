@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valentine 💘</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Floating hearts background -->
+<div class="heart-bg"></div>
+
+<div class="card" id="card">
+  <h1>Will you be my Valentine? 💘</h1>
+  <button class="yes" onclick="yes()">Yes 💖</button>
+  <button class="no" id="noBtn">No 🙈</button>
+  <div id="msg"></div>
+</div>
+
+<!-- Confetti -->
+<div id="confetti"></div>
+
+<!-- MUSIC -->
+<audio id="loveSong" loop>
+   <source src="love-song.mp3" type="audio/mpeg">
+</audio>
+<audio id="noSound">
+   <source src="no.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
